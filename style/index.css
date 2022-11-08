@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* background: #f09433; 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); */
+    background-color: rgb(0, 66, 130);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main__h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255, 0.8);
+    font-size: 50px;
+    margin: auto;
+    cursor: default;
+    transition: 0.5s ease;
+}
+
+
+.main__h1:hover {
+    letter-spacing: 2px;
+    transform: scale(1.05);
+    border-bottom: 1px solid;
+}
+

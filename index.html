@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 4</title>
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+
+<body>
+    <main class="main">
+        <h1 class="main__h1">Homework 4</h1>
+    </main>
+
+    <script>
+        var number = +prompt('Введите число высоты ёлочки:');
+
+        for (; number != number;) {
+            number = +prompt('Пожалуйста, введите целое число!');
+        }
+
+        for (var i = 1, sign = '*'; i <= number; i++) {
+            if (i % 2 != 0) continue;
+            sign += '\n';
+
+            for (var j = 0; j <= i; j++) {
+                sign += '*';
+            }
+        }
+
+        alert(sign);
+    </script>
+</body>
+
+</html>
